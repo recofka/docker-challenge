@@ -22,7 +22,7 @@ This project is challenging of docker content of a [Full Cycle course.](https://
 
 
 
-##  Installation
+##  Installation from Git
 
 ```bash
 # Clone this repository
@@ -37,5 +37,17 @@ $ docker build -t image_golang .
 # Run the command to run the container:
 $ docker run -it --rm --name container_golang image_golang
 
+```
+
+
+
+##  Installation from Docker hub
+
+```bash
+# Clone DockerHub repository
+$ docker pull recofka/codeeducation
+
+# Run the command to run the container:
+$ docker run -it --rm --name container_golang recofka/codeeducation
 
 ```
